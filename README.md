@@ -9,3 +9,4 @@
 ## Chapter 6. 무식하게 풀기
 
 - [소풍](src/main/java/book/jmb/chapter06/Picnic.java)
+- [게임판 덮기](src/main/java/book/jmb/chapter06/BoardCover.java)
