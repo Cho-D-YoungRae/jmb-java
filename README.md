@@ -10,3 +10,10 @@
 
 - [소풍](src/main/java/book/jmb/chapter06/Picnic.java)
 - [게임판 덮기](src/main/java/book/jmb/chapter06/BoardCover.java)
+
+## Chapter 16. 비트마스크(575pg~)
+
+[교재 내용](./src/main/java/book/jmb/chapter16/README.md)
+
+|문제|교재|알고스팟|코드|
+|---|---|---|---|
