@@ -15,5 +15,6 @@
 
 [교재 내용](./src/main/java/book/jmb/chapter16/README.md)
 
-|문제|교재|알고스팟|코드|
-|---|---|---|---|
+| 문제    | 교재    | 알고스팟                                                         | 코드                                                       |
+|-------|-------|--------------------------------------------------------------|----------------------------------------------------------|
+| 졸업 학기 | 590pg | [링크](https://www.algospot.com/judge/problem/read/GRADUATION) | [링크](./src/main/java/book/jmb/chapter16/Graduation.java) |
