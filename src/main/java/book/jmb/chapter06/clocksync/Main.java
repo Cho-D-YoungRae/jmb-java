@@ -1,4 +1,4 @@
-package book.jmb.chapter06;
+package book.jmb.chapter06.clocksync;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.util.Arrays;
  * - 어떤 스위치건 간에 최대 세 번 이상 누를 일이 없음
  *      -> 어떤 스위치를 네 번 누르면 연결된 시계는 모두 12시간 씩 앞으로 이동하니 하나도 누르지 않은 것과 다름 없음
  */
-public class ClockSync {
+public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

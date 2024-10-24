@@ -1,4 +1,4 @@
-package book.jmb.chapter16;
+package book.jmb.chapter16.graduation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Graduation {
+public class Main {
 
     private static final int MAXN = 12;
     private static final int INF = 987654321;
@@ -39,7 +39,7 @@ public class Graduation {
                 }
             }
 
-            int result = new Graduation(n, k, m, l, prerequisites, classes).graduate(0, 0);
+            int result = new Main(n, k, m, l, prerequisites, classes).graduate(0, 0);
             if (result >= INF) {
                 System.out.println("IMPOSSIBLE");
             } else {
@@ -54,7 +54,7 @@ public class Graduation {
     private final int[] classes;
     private final int[][] cache = new int[10][1 << MAXN];
 
-    public Graduation(int n, int k, int m, int l, int[] prerequisites, int[] classes) {
+    public Main(int n, int k, int m, int l, int[] prerequisites, int[] classes) {
         this.n = n;
         this.k = k;
         this.m = m;

@@ -1,4 +1,4 @@
-package book.jmb.chapter06;
+package book.jmb.chapter06.picnic;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  * 문제 링크: https://www.algospot.com/judge/problem/read/PICNIC
  * 교재: 1권 157pg
  */
-public class Picnic {
+public class Main {
 
     private static int n;
     private static boolean[][] areFriends;

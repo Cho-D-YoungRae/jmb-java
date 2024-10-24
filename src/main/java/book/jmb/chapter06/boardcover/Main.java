@@ -1,4 +1,4 @@
-package book.jmb.chapter06;
+package book.jmb.chapter06.boardcover;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  * 우리는 최대 50/3 = 16 개의 블록을 놓기 때문에 가능한 답의 상한은 4^16 개가 될 것 같지만,
  * 실제 입력을 생각해보면 가능한 경우의 수가 많이 제한되기 때문에 완전탐색이 가능함
  */
-public class BoardCover {
+public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
