@@ -16,7 +16,7 @@ public class Main {
         }
     }
 
-    public static String reverse(String quadtreeImage) {
+    private static String reverse(String quadtreeImage) {
         return doReverse(quadtreeImage, 0);
     }
 
