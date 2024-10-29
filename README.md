@@ -1,6 +1,6 @@
 # jmb-java
 
-> 알고리즘 문제해결전략(종만북) 내 코드 Javarization
+> 알고리즘 문제해결전략(종만북) 코드 Javarization
 
 ## Chapter 06. 무식하게 풀기
 
@@ -14,6 +14,12 @@
 | 쿼드 트리 뒤집기 | 191pg | [링크](https://www.algospot.com/judge/problem/read/QUADTREE) | [링크](./src/main/java/book/jmb/chapter07/quadtree/Main.java)   |
 | 울타리 잘라내기  | 195pg | [링크](https://algospot.com/judge/problem/read/FENCE)        | [링크](./src/main/java/book/jmb/chapter07/fence/Main.java)      |
 | ~~팬미팅~~   | 201pg | [링크](https://algospot.com/judge/problem/read/FANMEETING)   | [링크](./src/main/java/book/jmb/chapter07/fanmeeting/Main.java) |
+
+## Chapter 08. 동적 계획법
+
+| 예제                   | 교재           | 코드                                                   |
+|----------------------|--------------|------------------------------------------------------|
+| 재귀 호출을 이용한 이항 계수의 계산 | 209pg 코드 8.1 | [링크](src/main/java/book/jmb/chapter08/Code_8_1.java) |
 
 ## Chapter 16. 비트마스크(575pg~)
 
