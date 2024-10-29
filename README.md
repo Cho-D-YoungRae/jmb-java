@@ -22,6 +22,9 @@
 | 재귀 호출을 이용한 이항 계수의 계산 | 209pg 코드 8.1 | [링크](src/main/java/book/jmb/chapter08/Code_8_1.java) |
 | 메모제이션을 이용한 이항 계수의 계산 | 211pg 코드 8.2 | [링크](src/main/java/book/jmb/chapter08/Code_8_2.java) |
 
+| 문제    | 교재                    | 알고스팟                                                       | 코드                                                          |
+|-------|-----------------------|------------------------------------------------------------|-------------------------------------------------------------|
+| 외발 뛰기 | 215pg, 코드 8.4, 코드 8.5 | [링크](https://www.algospot.com/judge/problem/read/JUMPGAME) | [링크](./src/main/java/book/jmb/chapter08/jumpgame/Main.java) |
 
 ## Chapter 16. 비트마스크(575pg~)
 
