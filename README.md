@@ -28,6 +28,7 @@
 | 와일드카드                                    | 220pg | [링크](https://www.algospot.com/judge/problem/read/WILDCARD)     | [코드 8.6](src/main/java/book/jmb/chapter08/wildcard/Code_8_6.java), [코드 8.7](src/main/java/book/jmb/chapter08/wildcard/Code_8_7.java), [답안](./src/main/java/book/jmb/chapter08/wildcard/Main.java)    |
 | 삼각형 위의 최대 경로                             | 226pg | [링크](https://www.algospot.com/judge/problem/read/TRIANGLEPATH) | [답안](./src/main/java/book/jmb/chapter08/trianglepath/Main.java)                                                                                                                                      |
 | 최대 증가 부분 수열(Longest Increasing Sequence) | 230pg | [링크](https://algospot.com/judge/problem/read/LIS)              | [코드 8.10](./src/main/java/book/jmb/chapter08/lis/Code_8_10.java), [코드 8.11](./src/main/java/book/jmb/chapter08/lis/Code_8_11.java), [코드 8.12](./src/main/java/book/jmb/chapter08/lis/Code_8_12.java) |
+| 합친 LIS                                   | 237pg | [링크](https://algospot.com/judge/problem/read/JLIS)             | [코드 8.13](./src/main/java/book/jmb/chapter08/jlis/Code_8_13.java)                                                                                                                                    |
 
 ## Chapter 16. 비트마스크(575pg~)
 

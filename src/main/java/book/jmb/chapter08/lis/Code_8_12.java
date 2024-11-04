@@ -26,7 +26,7 @@ public class Code_8_12 {
 
     }
 
-    // S[start] 에서 시자가는 증가 부분 수열 중 최대 길이를 반환한다.
+    // S[start] 에서 시작하는 증가 부분 수열 중 최대 길이를 반환한다.
     private static int lis3(int[] S, int[] cache, int start) {
         int ret = cache[start + 1];
         if (ret != -1) {
