@@ -29,6 +29,7 @@
 | 삼각형 위의 최대 경로                             | 226pg | [링크](https://www.algospot.com/judge/problem/read/TRIANGLEPATH) | [답안](./src/main/java/book/jmb/chapter08/trianglepath/Main.java)                                                                                                                                      |
 | 최대 증가 부분 수열(Longest Increasing Sequence) | 230pg | [링크](https://algospot.com/judge/problem/read/LIS)              | [코드 8.10](./src/main/java/book/jmb/chapter08/lis/Code_8_10.java), [코드 8.11](./src/main/java/book/jmb/chapter08/lis/Code_8_11.java), [코드 8.12](./src/main/java/book/jmb/chapter08/lis/Code_8_12.java) |
 | 합친 LIS                                   | 237pg | [링크](https://algospot.com/judge/problem/read/JLIS)             | [코드 8.13](./src/main/java/book/jmb/chapter08/jlis/Code_8_13.java)                                                                                                                                    |
+| 원주율 외우기                                  | 241pg | [링크](https://algospot.com/judge/problem/read/PI)               | [코드 8.14](./src/main/java/book/jmb/chapter08/pi/Code_8_14.java)                                                                                                                                      |
 
 ## Chapter 16. 비트마스크(575pg~)
 
