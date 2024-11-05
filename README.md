@@ -31,6 +31,7 @@
 | 합친 LIS                                   | 237pg | [문제](https://algospot.com/judge/problem/read/JLIS)             | [코드 8.13](./src/main/java/book/jmb/chapter08/jlis/Code_8_13.java)                                                                                                                                    |
 | 원주율 외우기                                  | 241pg | [문제](https://algospot.com/judge/problem/read/PI)               | [코드 8.14](./src/main/java/book/jmb/chapter08/pi/Code_8_14.java)                                                                                                                                      |
 | Quantization                             | 244pg | [문제](https://algospot.com/judge/problem/read/QUANTIZE)         | [코드 8.14](./src/main/java/book/jmb/chapter08/quantize/Code_8_15.java)                                                                                                                                |
+| 타일링                                      | 252pg | [문제](https://algospot.com/judge/problem/read/TILING2)          | [코드 8.14](./src/main/java/book/jmb/chapter08/tiling2/Code_8_16.java)                                                                                                                                 |
 
 ## Chapter 16. 비트마스크(575pg~)
 
