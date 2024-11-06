@@ -8,14 +8,14 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int c = Integer.parseInt(bf.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int c = Integer.parseInt(br.readLine());
 
         for (int testcase = 0; testcase < c; testcase++) {
-            int n = Integer.parseInt(bf.readLine());
+            int n = Integer.parseInt(br.readLine());
             int[][] triangle = new int[n][];
             for (int i = 0; i < n; i++) {
-                triangle[i] = Arrays.stream(bf.readLine().split(" +"))
+                triangle[i] = Arrays.stream(br.readLine().split(" +"))
                         .mapToInt(Integer::parseInt)
                         .toArray();
             }
