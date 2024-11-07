@@ -36,7 +36,7 @@
 | 달팽이                                      | 258pg | [문제](https://www.algospot.com/judge/problem/read/SNAIL)        | [정답](./src/main/java/book/jmb/chapter08/snail/Main.java)                                                                                                                                             |
 | 비대칭 타일링                                  | 259pg | [문제](https://www.algospot.com/judge/problem/read/ASYMTILING)   | [코드 8.19](./src/main/java/book/jmb/chapter08/asymtiling/Code_8_19.java), [코드 8.20](./src/main/java/book/jmb/chapter08/asymtiling/Code_8_20.java)                                                     |
 | 폴리오미노                                    | 264pg | [문제](https://www.algospot.com/judge/problem/read/POLY)         | [코드 8.21](./src/main/java/book/jmb/chapter08/poly/Code_8_21.java)                                                                                                                                    |
-| 두니발 박사의 탈옥                               | 269pg | [문제](https://www.algospot.com/judge/problem/read/NUMB3RS)      | [코드 8.22](./src/main/java/book/jmb/chapter08/numb3rs/Code_8_22.java)                                                                                                                                 |
+| 두니발 박사의 탈옥                               | 269pg | [문제](https://www.algospot.com/judge/problem/read/NUMB3RS)      | [코드 8.22](./src/main/java/book/jmb/chapter08/numb3rs/Code_8_22.java), [코드 8.23](./src/main/java/book/jmb/chapter08/numb3rs/Code_8_23.java)                                                           |
 
 ## Chapter 16. 비트마스크(575pg~)
 
