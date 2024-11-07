@@ -34,7 +34,7 @@
 | 타일링                                      | 252pg | [문제](https://algospot.com/judge/problem/read/TILING2)          | [코드 8.16](./src/main/java/book/jmb/chapter08/tiling2/Code_8_16.java)                                                                                                                                 |
 | 삼각형 위의 최대 경로 수 세기                        | 252pg | [문제](https://www.algospot.com/judge/problem/read/TRIPATHCNT)   | [코드 8.17](./src/main/java/book/jmb/chapter08/tripathcnt/Code_8_17.java)                                                                                                                              |
 | 달팽이                                      | 258pg | [문제](https://www.algospot.com/judge/problem/read/SNAIL)        | [정답](./src/main/java/book/jmb/chapter08/snail/Main.java)                                                                                                                                             |
-| 비대칭 타일링                                  | 259pg | [문제](https://www.algospot.com/judge/problem/read/ASYMTILING)   | [코드 8.19](./src/main/java/book/jmb/chapter08/asymtiling/Code_8_19.java)                                                                                                                              |
+| 비대칭 타일링                                  | 259pg | [문제](https://www.algospot.com/judge/problem/read/ASYMTILING)   | [코드 8.19](./src/main/java/book/jmb/chapter08/asymtiling/Code_8_19.java), [코드 8.20](./src/main/java/book/jmb/chapter08/asymtiling/Code_8_20.java)                                                     |
 
 ## Chapter 16. 비트마스크(575pg~)
 
