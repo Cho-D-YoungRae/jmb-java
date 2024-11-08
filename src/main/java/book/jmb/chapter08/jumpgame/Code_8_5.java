@@ -5,37 +5,35 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main {
+public class Code_8_5 {
+
+    private static int n;
+    private static int[][] board;
+    private static int[][] cache;
 
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int c = Integer.parseInt(bf.readLine());
 
         for (int testcase = 0; testcase < c; testcase++) {
-            int n = Integer.parseInt(bf.readLine());
-            int[][] board = new int[n][];
+            n = Integer.parseInt(bf.readLine());
+            board = new int[n][];
             for (int i = 0; i < n; i++) {
                 board[i] = Arrays.stream(bf.readLine().split(" "))
                         .mapToInt(Integer::parseInt)
                         .toArray();
             }
+            cache = new int[n][n];
+            for (int[] row : cache) {
+                Arrays.fill(row, -1);
+            }
 
-            String result = jump2(board, 0, 0) == 1 ? "YES" : "NO";
+            String result = jump2(0, 0) == 1 ? "YES" : "NO";
             System.out.println(result);
         }
     }
 
-    private static int jump2(int[][] board, int y, int x) {
-        int n = board.length;
-        int[][] cache = new int[n][n];
-        for (int[] row : cache) {
-            Arrays.fill(row, -1);
-        }
-        return doJump2(board, cache, y, x);
-    }
-
-    private static int doJump2(int[][] board, int[][] cache, int y, int x) {
-        int n = board.length;
+    private static int jump2(int y, int x) {
         // 기저 사례 처리
         if (y >= n || x >= n) {
             return 0;
@@ -50,7 +48,7 @@ public class Main {
         }
 
         int jumpSize = board[y][x];
-        ret = doJump2(board, cache, y + jumpSize, x) | doJump2(board, cache, y, x + jumpSize);
+        ret = jump2(y + jumpSize, x) | jump2(y, x + jumpSize);
         cache[y][x] = ret;
         return ret;
     }
