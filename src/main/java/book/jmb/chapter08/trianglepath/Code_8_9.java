@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main {
+public class Code_8_9 {
 
     private static int n;
     private static int[][] triangle;
