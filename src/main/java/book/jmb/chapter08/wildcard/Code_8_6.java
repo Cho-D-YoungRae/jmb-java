@@ -9,15 +9,15 @@ import java.util.List;
 public class Code_8_6 {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int c = Integer.parseInt(bf.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int c = Integer.parseInt(br.readLine());
 
         for (int testcase = 0; testcase < c; testcase++) {
-            String w = bf.readLine();
-            int n = Integer.parseInt(bf.readLine());
+            String w = br.readLine();
+            int n = Integer.parseInt(br.readLine());
             List<String> filenames = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                filenames.add(bf.readLine());
+                filenames.add(br.readLine());
             }
 
             filenames.stream()
