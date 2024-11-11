@@ -12,12 +12,14 @@ import static java.lang.Math.max;
 
 public class Code_8_10 {
 
+    private static int n;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int c = Integer.parseInt(br.readLine());
 
         for (int testcase = 0; testcase < c; testcase++) {
-            int n = Integer.parseInt(br.readLine());
+            n = Integer.parseInt(br.readLine());
             List<Integer> sequence = Arrays.stream(br.readLine().split(" "))
                     .map(Integer::valueOf)
                     .collect(Collectors.toList());

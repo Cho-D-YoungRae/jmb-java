@@ -7,38 +7,35 @@ import java.util.Arrays;
 
 public class Main {
 
+    private static int n;
+    private static int[][] triangle;
+    private static int[][] cache;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int c = Integer.parseInt(br.readLine());
 
         for (int testcase = 0; testcase < c; testcase++) {
-            int n = Integer.parseInt(br.readLine());
-            int[][] triangle = new int[n][];
+            n = Integer.parseInt(br.readLine());
+            triangle = new int[n][];
             for (int i = 0; i < n; i++) {
                 triangle[i] = Arrays.stream(br.readLine().split(" +"))
                         .mapToInt(Integer::parseInt)
                         .toArray();
             }
 
-            System.out.println(path(triangle));
+            cache = new int[n][];
+            for (int i = 0; i < n; i++) {
+                cache[i] = new int[triangle[i].length];
+                Arrays.fill(cache[i], -1);
+            }
+
+            System.out.println(path2(0, 0));
         }
 
     }
 
-    private static int path(int[][] triangle) {
-
-        int n = triangle.length;
-
-        int[][] cache = new int[n][];
-        for (int i = 0; i < n; i++) {
-            cache[i] = new int[triangle[i].length];
-            Arrays.fill(cache[i], -1);
-        }
-
-        return doPath(triangle, cache, 0, 0);
-    }
-
-    private static int doPath(int[][] triangle, int[][] cache, int y, int x) {
+    private static int path2(int y, int x) {
         // 기저 사례
         int n = triangle.length;
         if (y == n - 1) {
@@ -51,10 +48,10 @@ public class Main {
         }
 
 
-        int prev = doPath(triangle, cache, y + 1, x);
+        int prev = path2(y + 1, x);
 
         if (x + 1 < triangle[y + 1].length) {
-            prev = Math.max(prev, doPath(triangle, cache, y + 1, x + 1));
+            prev = Math.max(prev, path2(y + 1, x + 1));
         }
 
         cache[y][x] = triangle[y][x] + prev;

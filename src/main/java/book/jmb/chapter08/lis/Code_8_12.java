@@ -9,25 +9,29 @@ import static java.lang.Math.max;
 
 public class Code_8_12 {
 
+    private static int n;
+    private static int[] S;
+    private static int[] cache;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int c = Integer.parseInt(br.readLine());
 
         for (int testcase = 0; testcase < c; testcase++) {
-            int n = Integer.parseInt(br.readLine());
-            int[] sequence = Arrays.stream(br.readLine().split(" "))
+            n = Integer.parseInt(br.readLine());
+            S = Arrays.stream(br.readLine().split(" "))
                     .mapToInt(Integer::parseInt)
                     .toArray();
-            int[] cache = new int[n + 1];
+            cache = new int[n + 1];
             Arrays.fill(cache, -1);
 
-            System.out.println(lis3(sequence, cache, -1) - 1);
+            System.out.println(lis3(-1) - 1);
         }
 
     }
 
     // S[start] 에서 시작하는 증가 부분 수열 중 최대 길이를 반환한다.
-    private static int lis3(int[] S, int[] cache, int start) {
+    private static int lis3(int start) {
         int ret = cache[start + 1];
         if (ret != -1) {
             return ret;
@@ -37,7 +41,7 @@ public class Code_8_12 {
         ret = 1;
         for (int next = start + 1; next < S.length; next++) {
             if (start == -1 || S[start] < S[next]) {
-                ret = max(ret, lis3(S, cache, next) + 1);
+                ret = max(ret, lis3(next) + 1);
             }
         }
         return cache[start + 1] = ret;
