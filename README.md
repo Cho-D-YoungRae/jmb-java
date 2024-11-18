@@ -38,8 +38,14 @@
 | 폴리오미노                                    | 264pg | [문제](https://www.algospot.com/judge/problem/read/POLY)         | [코드 8.21](./src/main/java/book/jmb/chapter08/poly/Code_8_21.java)                                                                                                                                                                                                           |
 | 두니발 박사의 탈옥                               | 269pg | [문제](https://www.algospot.com/judge/problem/read/NUMB3RS)      | [코드 8.22](./src/main/java/book/jmb/chapter08/numb3rs/Code_8_22.java), [코드 8.23](./src/main/java/book/jmb/chapter08/numb3rs/Code_8_23.java), [코드 8.24](./src/main/java/book/jmb/chapter08/numb3rs/Code_8_24.java)                                                            |
 
-## Chapter 16. 비트마스크(575pg~)
+## Chapter 16. 비트마스크
 
 | 문제    | 교재    | 알고스팟                                                         | 코드                                                            |
 |-------|-------|--------------------------------------------------------------|---------------------------------------------------------------|
 | 졸업 학기 | 590pg | [링크](https://www.algospot.com/judge/problem/read/GRADUATION) | [링크](./src/main/java/book/jmb/chapter16/graduation/Main.java) |
+
+## Chapter 18. 선형 자료 구조
+
+| 문제      | 교재    | 알고스팟                                                       | 코드                                                                    |
+|---------|-------|------------------------------------------------------------|-----------------------------------------------------------------------|
+| 조세푸스 문제 | 620pg | [문제](https://www.algospot.com/judge/problem/read/JOSEPHUS) | [코드 18.2](./src/main/java/book/jmb/chapter18/josephus/Code_18_2.java) |
