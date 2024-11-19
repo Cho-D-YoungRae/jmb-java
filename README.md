@@ -52,6 +52,7 @@
 
 ## Chapter 19. 큐와 스택, 데크
 
-| 문제      | 교재    | 알고스팟                                                       | 코드                                                                                       |
-|---------|-------|------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| 조세푸스 문제 | 628pg | [문제](https://www.algospot.com/judge/problem/read/JOSEPHUS) | [큐를 이용한 조세푸스 문제의 해법](./src/main/java/book/jmb/chapter19/josephus/SolutionWithQueue.java) |
+| 문제       | 교재    | 알고스팟                                                       | 코드                                                                                       |
+|----------|-------|------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| 조세푸스 문제  | 628pg | [문제](https://www.algospot.com/judge/problem/read/JOSEPHUS) | [큐를 이용한 조세푸스 문제의 해법](./src/main/java/book/jmb/chapter19/josephus/SolutionWithQueue.java) |
+| 울타리 잘라내기 | 628pg | [문제](https://algospot.com/judge/problem/read/FENCE)        | [코드 19.1](./src/main/java/book/jmb/chapter19/fence/Code_19_1.java)                       |
