@@ -58,3 +58,9 @@
 | 울타리 잘라내기    | 628pg | [문제](https://algospot.com/judge/problem/read/FENCE)        | [코드 19.1](./src/main/java/book/jmb/chapter19/fence/Code_19_1.java)                       |
 | 짝이 맞지 않는 괄호 | 634pg | [문제](https://algospot.com/judge/problem/read/BRACKETS2)    | [코드 19.2](./src/main/java/book/jmb/chapter19/brackets2/Code_19_2.java)                   |
 | 외계 신호 분석    | 635pg | [문제](https://www.algospot.com/judge/problem/read/ITES)     | [코드 19.5](./src/main/java/book/jmb/chapter19/ites/Code_19_5.java)                        |
+
+## Chapter 21. 트리의 구현과 순회
+
+| 문제          | 교재    | 알고스팟                                                        | 코드                                                                     |
+|-------------|-------|-------------------------------------------------------------|------------------------------------------------------------------------|
+| 트리 순회 순서 변경 | 686pg | [문제](https://www.algospot.com/judge/problem/read/TRAVERSAL) | [코드 21.4](./src/main/java/book/jmb/chapter21/traversal/Code_21_4.java) |
