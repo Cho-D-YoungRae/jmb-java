@@ -61,6 +61,7 @@
 
 ## Chapter 21. 트리의 구현과 순회
 
-| 문제          | 교재    | 알고스팟                                                        | 코드                                                                     |
-|-------------|-------|-------------------------------------------------------------|------------------------------------------------------------------------|
-| 트리 순회 순서 변경 | 686pg | [문제](https://www.algospot.com/judge/problem/read/TRAVERSAL) | [코드 21.4](./src/main/java/book/jmb/chapter21/traversal/Code_21_4.java) |
+| 문제          | 교재    | 알고스팟                                                        | 코드                                                                                   |
+|-------------|-------|-------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| 트리 순회 순서 변경 | 686pg | [문제](https://www.algospot.com/judge/problem/read/TRAVERSAL) | [코드 21.4](./src/main/java/book/jmb/chapter21/traversal/Code_21_4.java)               |
+| 요새          | 689pg | [문제](https://www.algospot.com/judge/problem/read/FORTRESS)  | [풀이(코드 21.5, 21.6, 21.7)](./src/main/java/book/jmb/chapter21/fortress/Solution.java) |
