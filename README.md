@@ -68,6 +68,7 @@
 
 ## Chapter 22. 이진 검색 트리
 
-| 문제               | 교재    | 알고스팟                                                    | 코드                                                                             |
-|------------------|-------|---------------------------------------------------------|--------------------------------------------------------------------------------|
-| 너드인가, 너드가 아닌가? 2 | 702pg | [문제](https://www.algospot.com/judge/problem/read/NERD2) | [풀이(코드 22.1, 코드 22.2)](./src/main/java/book/jmb/chapter22/nerd2/Solution.java) |
+| 문제               | 교재    | 알고스팟                                                        | 코드                                                                                  |
+|------------------|-------|-------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| 너드인가, 너드가 아닌가? 2 | 702pg | [문제](https://www.algospot.com/judge/problem/read/NERD2)     | [풀이(코드 22.1, 코드 22.2)](./src/main/java/book/jmb/chapter22/nerd2/Solution.java)      |
+| 삽입 정렬 뒤집기        | 721pg | [문제](https://www.algospot.com/judge/problem/read/INSERTION) | [풀이(코드 22.3 ~ 코드 22.8)](./src/main/java/book/jmb/chapter22/insertion/Solution.java) |
