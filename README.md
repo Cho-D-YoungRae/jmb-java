@@ -65,3 +65,9 @@
 |-------------|-------|-------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | 트리 순회 순서 변경 | 686pg | [문제](https://www.algospot.com/judge/problem/read/TRAVERSAL) | [코드 21.4](./src/main/java/book/jmb/chapter21/traversal/Code_21_4.java)               |
 | 요새          | 689pg | [문제](https://www.algospot.com/judge/problem/read/FORTRESS)  | [풀이(코드 21.5, 21.6, 21.7)](./src/main/java/book/jmb/chapter21/fortress/Solution.java) |
+
+## Chapter 22. 이진 검색 트리
+
+| 문제               | 교재    | 알고스팟                                                    | 코드                                                                             |
+|------------------|-------|---------------------------------------------------------|--------------------------------------------------------------------------------|
+| 너드인가, 너드가 아닌가? 2 | 702pg | [문제](https://www.algospot.com/judge/problem/read/NERD2) | [풀이(코드 22.1, 코드 22.2)](./src/main/java/book/jmb/chapter22/nerd2/Solution.java) |
