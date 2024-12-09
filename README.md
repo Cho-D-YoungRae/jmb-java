@@ -85,3 +85,4 @@
 |------------|-------|--------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | 고대어 사전     | 831pg | [문제](https://www.algospot.com/judge/problem/read/DICTIONARY) | [풀이(코드 28.2, 코드 28.3)](./src/main/java/book/jmb/chapter28/dictionary/Solution.java) |
 | 단어 제한 끝말잇기 | 842pg | [문제](https://www.algospot.com/judge/problem/read/WORDCHAIN)  | [풀이(코드 28.5 ~ 코드 28.7)](./src/main/java/book/jmb/chapter28/wordchain/Solution.java) |
+| 감시 카메라 설치  | 864pg | [문제](https://www.algospot.com/judge/problem/read/GALLERY)    | [코드 28.11](./src/main/java/book/jmb/chapter28/gallery/Code_28_11.java)              |
