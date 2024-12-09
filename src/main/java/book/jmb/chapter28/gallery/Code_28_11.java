@@ -30,7 +30,6 @@ public class Code_28_11 {
             int g = Integer.parseInt(st.nextToken());
             int h = Integer.parseInt(st.nextToken());
             V = g;
-            visited = new boolean[g];
             adj = new ArrayList<>();
             for (int i = 0; i < g; i++) {
                 adj.add(new ArrayList<>());
